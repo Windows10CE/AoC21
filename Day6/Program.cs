@@ -1,6 +1,4 @@
-﻿using System.Numerics;
-
-namespace Day6;
+﻿namespace Day6;
 
 public static unsafe class Program
 {
@@ -28,7 +26,7 @@ public static unsafe class Program
             fishArray[6] += fishArray2[0];
         }
 
-        var sum = BigInteger.Zero;
+        var sum = 0ul;
         foreach (var fish in fishArray)
         {
             sum += fish;
